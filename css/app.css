@@ -1,0 +1,42 @@
+body {
+  font-size: 18px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+
+}
+#wraper{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+  margin: 20px;
+}
+header .title img {
+  height: 28px;
+}
+header .title span {
+  font-size: 35px;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+.text {
+  line-height: 60px;
+}
+.block span {
+  color: rgb(206, 206, 206) ;
+  font-size: 0.8em;
+}
+.block {
+  width: 30%;
+  display: inline-block;
+}
+.block span{
+    line-height: -100px;
+}
+.block img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
